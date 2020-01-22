@@ -11,6 +11,6 @@ del d['fish']         # Remove an element from a dictionary
 print(d.get('fish', 'N/A'))
 
 # understanding print
-s = "quoted"
+s = "'String'"
 i = 23
 print("this, %s is a string  and %d is number" % (s, i))

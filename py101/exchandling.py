@@ -1,10 +1,11 @@
 import math
 
-anumber = int(input("Please enter an integer "))
+anumber = 0
 
 try:
+    anumber = int(input("Please enter an integer "))
     print(math.sqrt(anumber))
 except:
     print("Bad Value for square root")
-    print("Using absolute value instead")
+    print("Using default value instead")
     print(math.sqrt(abs(anumber)))
